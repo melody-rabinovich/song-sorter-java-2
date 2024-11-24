@@ -12,11 +12,8 @@ public class main {
 		Sorter sorter = new Sorter();
 		
 		
-		sorter.showFavoriteToLeast(songList);
-		//sorter.showMatrix(sorter.sort(songList));
-		
+		sorter.sort(songList);
 
 	}
 
 }
-
